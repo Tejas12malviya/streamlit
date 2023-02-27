@@ -19,7 +19,7 @@ lottie_coding=load_lottieurl("https://assets6.lottiefiles.com/packages/lf20_1fXD
 # with st.container():
 # #     right_column=st.columns(2)
 # #     with right_column:
-    st_lottie(lottie_coding, height=300, key='coding')
+st_lottie(lottie_coding, height=300, key='coding')
     
 # # st.markdown("""---""")
 
