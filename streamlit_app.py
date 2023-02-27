@@ -1,12 +1,12 @@
 import requests
-pip install streamlit-lottie
+# pip install streamlit-lottie
 import streamlit as st
-from streamlit_lottie import st_lottie
+# from streamlit_lottie import st_lottie
 
 st.set_page_config(page_title='Asia cup Analysis',layout='wide')
 # st.title("Asia Cup Data")
 # st.text(" ") 
-# st.image("/home/tejas/Downloads/Asia_cup.jpg")
+st.image("/home/tejas/Downloads/Asia_cup.jpg")
 
 def load_lottieurl(url):
     r=requests.get(url)
