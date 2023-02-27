@@ -5,23 +5,23 @@ from streamlit_lottie import st_lottie
 st.set_page_config(page_title='Asia cup Analysis',layout='wide')
 # st.title("Asia Cup Data")
 # st.text(" ") 
-# st.image("/home/tejas/Downloads/Asia_cup.jpg")
+st.image("/home/tejas/Downloads/Asia_cup.jpg")
 
-def load_lottieurl(url):
-    r=requests.get(url)
-    if r.status_code != 200:
-        return None
+# def load_lottieurl(url):
+#     r=requests.get(url)
+#     if r.status_code != 200:
+#         return None
     
-    return r.json()
+#     return r.json()
 
 
-lottie_coding=load_lottieurl("https://assets6.lottiefiles.com/packages/lf20_1fXD2hXInk.json")
-with st.container():
-#     right_column=st.columns(2)
-#     with right_column:
-    st_lottie(lottie_coding, height=300, key='coding')
+# lottie_coding=load_lottieurl("https://assets6.lottiefiles.com/packages/lf20_1fXD2hXInk.json")
+# with st.container():
+# #     right_column=st.columns(2)
+# #     with right_column:
+#     st_lottie(lottie_coding, height=300, key='coding')
     
-# st.markdown("""---""")
+# # st.markdown("""---""")
 
 # st.beta_columns
 import streamlit as st 
